@@ -1,4 +1,4 @@
-i#include
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -17,3 +17,41 @@ int main(void)
 
 	return (0);
 }
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char *sh = "Holberton";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
+#include "holberton.h"
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char *sh = "Holberton";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
+}
+
